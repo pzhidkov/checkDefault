@@ -1,0 +1,73 @@
+
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.AutoChannelEnable : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.AutoChannelRefreshPeriod : 600
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.BandWidth : Auto
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.BasicAuthenticationMode : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.BasicEncryptionModes : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.BeaconType : 11i
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.ChannelsInUse : 1,2,3,4,5,6,7,8,9,10,11,12,13
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Enable : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.IEEE11iAuthenticationMode : PSKAuthentication
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.IEEE11iEncryptionModes : AESEncryption
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.OperatingChannelBandwidth : Auto
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.RadioEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.RegulatoryDomain : RU
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Standard : b/g/n
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Status : Up
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TransmitPower : 100
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TransmitPowerSupported : 20,40,60,80,100
+
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.SSID : RT-WiFi-public
+
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.AutoChannelEnable : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.AutoChannelRefreshPeriod : 600
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.BandWidth : Auto
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.BasicAuthenticationMode : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.BasicEncryptionModes : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.BeaconType : WPAand11i
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.ChannelsInUse : 36,40,44,48,52,56,60,64,149,153,157,161
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.Enable : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.IEEE11iAuthenticationMode : PSKAuthentication
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.IEEE11iEncryptionModes : TKIPandAESEncryption
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.OperatingChannelBandwidth : Auto
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.RadioEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.RegulatoryDomain : RU
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.Standard : a/n/ac
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.Status : Up
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.TransmitPower : 100
+
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.SSID : RT-WiFi-public
+
+InternetGatewayDevice.Layer2Bridging.Bridge.1.BridgeEnable : 1
+InternetGatewayDevice.Layer2Bridging.Bridge.1.BridgeKey : 0
+InternetGatewayDevice.Layer2Bridging.Bridge.1.BridgeName : DEFAULT
+InternetGatewayDevice.Layer2Bridging.Bridge.1.BridgeStandard : 802.1Q
+InternetGatewayDevice.Layer2Bridging.Bridge.1.BridgeStatus : Enabled
+InternetGatewayDevice.Layer2Bridging.Bridge.1.VLANID : 10
+
+InternetGatewayDevice.Layer3Forwarding.DefaultConnectionService : InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1
+
+InternetGatewayDevice.ManagementServer.Username : rtk
+InternetGatewayDevice.ManagementServer.X_RTK_DSCPMark : 56
+InternetGatewayDevice.ManagementServer.X_RTK_VLANIDMark : 7
+
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.FaxT38.Enable : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.CallingFeatures.CallWaitingEnable : 1
+
+InternetGatewayDevice.Time.Enable : 1
+InternetGatewayDevice.Time.LocalTimeZone : +03:00
+InternetGatewayDevice.Time.NTPServer1 : ntp.local
+
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.ConnectionStatus : Connected
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.ConnectionTrigger : AlwaysOn
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.ConnectionType : IP_Routed
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PPPLCPEcho : 30
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PPPLCPEchoRetry : 3
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Password :
+
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Username : rtk
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_RTK_IGMPProxy : 1
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_RTK_IP_Version : 1
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_RTK_ServiceType : 1
+
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.X_RTK_PRACK: 1
